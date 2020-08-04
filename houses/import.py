@@ -21,11 +21,8 @@ with open("characters.csv", "r") as csvFile:
         birth = row["birth"]
         
     # Since students table is already provided to us, All i need to do insert the data into students tanle in the students.db   
-    db.execute("INSERT INTO students (firs, middle, last, house, birth) VALUES(?, ?, ?, ?, ?)",
-                               first, middle, last, house, birth)    
-        
-    
-    
+    db.execute("INSERT INTO students (first, middle, last, house, birth) VALUES(?, ?, ?, ?, ?)",first, middle, last, house, birth)    
+       
 # execute SELECT * FROM students; // Should give us the right data  
 
 
