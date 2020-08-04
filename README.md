@@ -6,5 +6,6 @@
     * For each student in the CSV file, insert the student into the students table in the               students.db database.
     * While the CSV file provided to you has just a name column, the database has separate              columns for first, middle, and last names
     
-* write a program that prints a list of students for a given house in alphabetical order.
+* In roster.py, write a program that prints a list of students for a given house in alphabetical order.
+   * Your program should accept the name of a house as a command-line argument. If the incorrect         number of command-line arguments are provided, your program should print an error and exit.
 
